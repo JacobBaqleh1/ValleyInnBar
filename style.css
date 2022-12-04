@@ -1,38 +1,68 @@
+*{
+    
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+
 body{
-    background-color: black
-    
-}
-#cardOne{
-    
-    background-image: url(https://images.unsplash.com/photo-1597290282695-edc43d0e7129?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60) ;
-    background-repeat: no-repeat;
-    
-    height: 70vh;
-    background-size: cover;
-    
+    background-color: rgb(44, 45, 49);
    
-}
-#cardTwo{
     
-    background-image: url(https://images.unsplash.com/photo-1615332579037-3c44b3660b53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJlZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60) ;
-    background-repeat: no-repeat;
-    height: 70vh;
-    background-size: cover;
-    
-   
-}
-.card-slogan{
-    color:white;
-    padding-top: 25%;
-    padding-bottom: 25%;
-    font-size: xx-large;
-    
-      
 }
 .navbar-image{
     width:3rem;
     height: 3rem;
 }
 .navbar-brand{
-    font-family: serif;
+    font-size: 3rem;
+   
+    
+    
 }
+.nav-item a{
+    font-size: x-large;
+    
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+   
+}
+
+
+
+
+#cardOneText{
+   font-weight: lighter;
+}
+
+
+
+.cardTitle {
+    color: white;
+   font-size: 2.5rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+.cardText {
+    color: white;
+   font-size: 2rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+      line-height: 1.75;
+}
+
+
+.content{
+    margin-top: 6rem;
+}
+
+.facebookImg{
+    width: 6rem;
+    
+}
+
+
+
