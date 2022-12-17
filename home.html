@@ -12,28 +12,35 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
   </head>
   <body>
     <!--navbar/* -->
 
      <nav
-      class="navbar navbar-expand-md navbar-dark bg-dark fixed-top py-0 mb-5"
+      class="navbar navbar-expand-lg navbar-dark navBg  fixed-top py-0 "
       id="mainNavbar"
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
-            class="navbar-image"
-            src="https://www.svgrepo.com/show/29549/beer.svg"
+            class="navbar-image rotateImg"
+            src="https://www.svgrepo.com/show/208939/martini.svg"
             alt="here"
+            style="transform: rotate(30deg); padding-right: 3px"
+          /> 
+         
+          <img
+            class="navbar-image"
+            src="https://www.svgrepo.com/show/208939/martini.svg"
+            alt="here"
+            style="transform: rotate(-30deg); padding-left: 3px"
           />
-          The Valley Inn</a
+          <span class="blackText">The Valley Inn</span></a
         >
         <button
-          class="navbar-toggler"
+          class="navbar-toggler "
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavDropdown"
@@ -43,21 +50,21 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown" >
           <ul class="navbar-nav text-center">
             <li class="nav-item"> 
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#"><span class="blackText">Home</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active "  href="#cardTwo"><span class="infoTitle">Opening Hours</span></a>
+              <a class="nav-link active "  href="#cardTwo"><span class="infoTitle"><span class="blackText">Opening Hours</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#cardThree"
-                ><span class="infoTitle">Location & Contact</span></a
+                ><span class=" blackText">Location & Contact</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="www.facebook.com"
+              <a class="nav-link active" href="https://www.facebook.com/valley.inn.10"
                 ><img class="facebookImg" src="https://www.svgrepo.com/show/303164/facebook-logo.svg" alt=""></a
               >
             </li>
@@ -66,7 +73,7 @@
       </div>
     </nav> 
     <!--All Cards Parent-->
-    <section class="container-fluid px-md-5 pt-0">
+    <section class="container-fluid px-md-5 pt-0 ">
       
      
       <!--Card1 -->
@@ -123,11 +130,12 @@
         </button>
       </div>
     
-      <!--Card2 -->
+      <!--Carousel Ends -->
 
       <section class="container-fluid px-0">
         <!--Heading Title-->
-       <div id="title" class="pt-5"><h1>A Place Where Good Friends Meet</h1></div> 
+       <div id="title" class="pt-5"><h1>A Place Where </br>
+        Good Friends Meet</h1></div> 
         <div id="cardTwo" class="row align-items-center mb-md-0  mb-5 mt-5 pt-5">
           <div class="col-md-6 order-2 order-md-1 ">
             <img
@@ -147,10 +155,30 @@
             </div>
           </div>
         </div>
+        <!--Karaoke Card-->
+        <div id="cardTwo" class="row align-items-center mb-md-0  mb-5 mt-5 pt-5">
+          <div class="col-md-6 order-1 order-md-2 ">
+            <img
+              src="https://media.istockphoto.com/id/1289781422/photo/karaoke-night-vintage-microphone-icon-glowing-purple-violet-neon-text-on-brick-wall.jpg?b=1&s=170667a&w=0&k=20&c=WyhcDjYlqn_Lecwa2ycR-USJPpdfsg-qHUAIya39sQI="
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6 text-center order-2 order-md-1 pt-5">
+            <div class="row justify-content-center">
+              <div id="openingHours"class="col-10">
+                <h2 class="cardTitle">KARAOKE NIGHT </h2>
+                <p class="cardText">
+                  EVERY MONDAY 8:00pm
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
         <!--Card3-->
         <div id="cardThree" class="row align-items-center mb-md-0  mb-5 mt-5">
           
-          <div class="col-md-6 text-center ">
+          <div class="col-md-6 text-center order-2 order-md-2 ">
             <div class="row justify-content-center">
               <div class="col-10">
                 <h2 class="cardTitle">Location & Contact</h2>
@@ -165,7 +193,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 ">
+          <div class="col-md-6 order-1 order-md-1 ">
             <img
               src="https://images.unsplash.com/photo-1545062080-a71640ea75a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cG9vbCUyMHRhYmxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
               alt=""
