@@ -43,7 +43,7 @@ body{
 .carousel-item{
     height: 32rem;
     position: relative;
-    background-color: white;
+    
     color: white;
     background-position: center;
    
@@ -97,7 +97,8 @@ body{
 }
 
 .facebookImg{
-    width: 4rem;
+    width: 6rem;
+    margin-top: 0rem;
     
 }
 #telephone{
