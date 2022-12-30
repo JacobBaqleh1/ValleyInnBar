@@ -16,25 +16,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!--navbar/* -->
+    <!--Navbar/* -->
 
      <nav
       class="navbar navbar-expand-lg navbar-dark navBg  fixed-top py-0 "
-      id="mainNavbar"
+      
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           
          
           <img
-            class="navbar-image"
+            class="navbarImage"
             src="https://www.svgrepo.com/show/233110/margarita-cocktail.svg"
             alt="here"
             
           />
-          <span style="color: black;
-          font-weight: 600;
-          font-size: 3rem;">The Valley Inn</span></a
+          <span  class="navbarBrand blackText ">The Valley Inn</span></a
         >
         <button
           class="navbar-toggler "
@@ -56,10 +54,10 @@
               <a  class="nav-link active" aria-current="page" href="#"><span  class="blackText">Home</span></a>
             </li>
             <li class="nav-item" style="margin-top: 2rem;">
-              <a class="nav-link active "  href="#cardTwo"><span class="infoTitle"><span class="blackText">Opening Hours</span></a>
+              <a class="nav-link active "  href="#OpeningHours"><span class="infoTitle"><span class="blackText">Opening Hours</span></a>
             </li>
             <li class="nav-item" style="margin-top: 2rem;">
-              <a class="nav-link active" href="#cardThree"
+              <a class="nav-link active" href="#Karaoke"
                 ><span class=" blackText">Location & Contact</span></a
               >
             </li>
@@ -76,7 +74,7 @@
     <section class="container-fluid px-md-5 pt-0 ">
       
      
-      <!--Card1 -->
+      <!--The Carousel -->
       <div id="myCarousel" class="topPadding carousel slide " data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -100,24 +98,14 @@
             <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
             <div class="overlay-image" style="background-image:url(./images/BarImg1.jpg) ;"></div>
             <div class="container">
-              <!--<div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-              </div>-->
+             
             </div>
           </div>
           <!--Slide THREE-->
           <div class="carousel-item">
             <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
             <div class="overlay-image" style="background-image:url(./images/BarImg4.jpg) ;"></div>
-            <!--<div class="container">
-              <div class="carousel-caption text-end">
-                <h1>One more for good measure.</h1>
-                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-              </div>
-            </div>-->
+           
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -141,9 +129,9 @@
         font-size: 2rem;
         font-family: 'Sevillana', cursive;">A Place Where 
         Good Friends Meet</h2>
-      
+      <!--Opening Hours Card -->
       </div> 
-        <div id="cardTwo" style="background-color: rgb(0, 0, 0);" class="row align-items-center mb-md-0  mb-5 mt-5 pt-5">
+        <div id="OpeningHours" style="background-color: rgb(0, 0, 0);" class="row align-items-center mb-md-0  mb-5 mt-5 pt-5">
           <h2 class="textColor text-center">Catch the Next Sports Event Here! </h2>
           
           <div class="col-md-6 order-1 order-md-1 ">
@@ -165,7 +153,7 @@
           </div>
         </div>
         <!--Karaoke Card-->
-        <div style="background-color: rgb(0, 0, 0);" id="cardTwo" class="row align-items-center mb-md-0  mb-5 mt-5 pt-5">
+        <div style="background-color: rgb(0, 0, 0);" id="Karaoke" class="row align-items-center mb-md-0  mb-5 mt-5 pt-5">
           <div class="col-md-6 order-1 order-md-2 ">
             <img
               src="https://media.istockphoto.com/id/1289781422/photo/karaoke-night-vintage-microphone-icon-glowing-purple-violet-neon-text-on-brick-wall.jpg?b=1&s=170667a&w=0&k=20&c=WyhcDjYlqn_Lecwa2ycR-USJPpdfsg-qHUAIya39sQI="
@@ -184,8 +172,8 @@
             </div>
           </div>
         </div>
-        <!--Card3-->
-        <div style="background-color: rgb(0, 0, 0);" id="cardThree" class="row align-items-center mb-md-0  mb-5 mt-5">
+        <!--Location Card-->
+        <div style="background-color: rgb(0, 0, 0);" id="Location" class="row align-items-center mb-md-0  mb-5 mt-5">
           
           <div class="col-md-6 text-center order-2 order-md-2 ">
             <div class="row justify-content-center">

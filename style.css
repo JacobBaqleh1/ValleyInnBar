@@ -25,17 +25,16 @@ body{
     border-bottom: .2rem solid rgb(0, 0, 0);
 }
 .blackText{
-    color: rgb(240, 238, 238);
+    color: rgb(0, 0, 0);
     
 }
-.navbar-image{
-    width:4rem;
+.navbarImage{
+    width:6vw;
    
 }
-.navbar-brand{
-    font-size: 2.2rem;
-   
-    
+.navbarBrand{
+    font-weight: 600;
+          font-size: 5vw;  
     
 }
 .nav-item a{
@@ -43,7 +42,7 @@ body{
     
 }
 
-.nav-item:hover{
+.nav-item a:hover{
     text-decoration: black underline;
    
    
@@ -71,12 +70,8 @@ body{
 
 
 
-#cardOneText{
-   font-weight: lighter;
-}
-#mainNavbar{
-    width: 100%;
-}
+
+
 
 
 
@@ -97,7 +92,7 @@ body{
    position: relative;
   text-align: center;
     
-    color: rgb(255, 255, 255); 
+     
     
 }
 
