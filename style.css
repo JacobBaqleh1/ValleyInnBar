@@ -33,11 +33,7 @@ body{
     padding-top: 8rem;
 }
 @media (max-width: 600px ){
-    .navBg {
-       height: 12vh;
-       
-       
-    }
+   
     .navbarBrand{
         font-weight: 600;
               font-size: 9.5vw;  
@@ -64,6 +60,7 @@ body{
         font-weight: 600;
     
     }
+ 
 }
 
 
