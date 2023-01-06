@@ -14,29 +14,72 @@ body{
     
 }
 
+#OpeningHours{
+    border-radius: 30px ;
+}
+#Karaoke{
+    border-radius: 30px ;
+}
+#Location{
+    border-radius: 30px ;
+}
+
+
+
 .textColor{
     color: rgb(175, 170, 170);
 }
 .topPadding{
     padding-top: 8rem;
 }
+@media (max-width: 600px ){
+    .navBg {
+       height: 12vh;
+       
+       
+    }
+    .navbarBrand{
+        font-weight: 600;
+              font-size: 9.5vw;  
+              font-weight: 700;
+        
+    }
+    .navbarImage{
+        width: 2.5rem;
+        
+       
+    }
+}
+
+@media (min-width: 601px ){
+    .navbarImage{
+    width:5.5rem
+    
+   
+    }
+    .navbarBrand{
+    
+       
+        font-size: 7vw;  
+        font-weight: 600;
+    
+    }
+}
+
+
+
 .navBg{
-    background-color: rgb(180, 177, 177);
+    background-color: rgb(175, 170, 170);
     border-bottom: .2rem solid rgb(0, 0, 0);
+    
+   
 }
 .blackText{
     color: rgb(0, 0, 0);
     
 }
-.navbarImage{
-    width:6vw;
-   
-}
-.navbarBrand{
-    font-weight: 600;
-          font-size: 5vw;  
-    
-}
+
+
 .nav-item a{
     font-size: x-large;
     
@@ -50,10 +93,8 @@ body{
 .carousel-item{
     height: 32rem;
     position: relative;
-    
-    
     background-position: center;
-   
+
 }
 .overlay-image{
     position: absolute;
@@ -64,6 +105,8 @@ body{
     background-position: center;
     background-size: cover;
     opacity: 0.8;
+    border-radius: 30px ;
+    
 } 
 
 
